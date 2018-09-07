@@ -9,7 +9,7 @@ class Projects extends Component {
         <div>
           <h1>MY PROJECTS PAGE</h1>
           <h2>Project 1</h2>
-          <p>My game was about spaceships fighting</p>
+          <p>My game was a top down Turn Based RPG</p>
           <h2>Project 2</h2>
           <p>My project two was a full-stack app with Node/Express</p>
         </div>

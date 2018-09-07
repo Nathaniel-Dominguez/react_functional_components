@@ -17,16 +17,13 @@ class App extends Component {
         <Router>
           <div>
             <nav>
-              <Link to="/">Home</Link>
-              <Link to="/projects">Projects</Link>
+              <Link to="/">Home</Link>{' '}
+              <Link to="/projects">Projects</Link>{' '}
               <Link to="/contactme">Contact Me</Link>
-              <Link to="/hjasgd">Stuff</Link>
             </nav>
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />
-            <Route path="/contactme" component={
-              () => (<Contact name="Brandi Butler" />)
-            } />
+            <Route path="/contactme" component={Contact} />
           </div>
         </Router>
       </div>
